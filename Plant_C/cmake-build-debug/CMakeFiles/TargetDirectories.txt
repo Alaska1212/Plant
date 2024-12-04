@@ -1,0 +1,3 @@
+C:/Users/polin/OneDrive/Documents/Ci/Proj/Plant_C/cmake-build-debug/CMakeFiles/Plant_C.dir
+C:/Users/polin/OneDrive/Documents/Ci/Proj/Plant_C/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/polin/OneDrive/Documents/Ci/Proj/Plant_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
