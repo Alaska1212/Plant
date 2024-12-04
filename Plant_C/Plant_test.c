@@ -15,7 +15,7 @@ int main() {
     int head_count = 0;
     int part_timer_count = 0;
 
-    int input_choice, output_choice;
+    int output_choice;
 
     printf("Choose output method: \n");
     printf("1. Output  to console\n");
