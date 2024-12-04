@@ -144,7 +144,7 @@ double calculate_part_timer_salary(PartTimer* part_timer) {
 }
 
 double calculate_head_salary(Head* head) {
-    double salary_multiplier = 1.2  ;            // Коефіцієнт для розрахунку зарплати
+    double salary_multiplier = 1.2  ;            //Coefficient for salary calculation
     double salary = head->profession.base_salary * salary_multiplier + head->experience_years * 1000;
     return salary;
 }
@@ -212,11 +212,10 @@ int read_workers_from_file(const char* filename, Worker workers[], int* worker_c
 void print_salaries(Worker workers[], int worker_count,
                     Head heads[], int head_count,
                     PartTimer part_timers[], int part_timer_count) {
-    // Виведемо зарплати керівників (Heads)
+   
     printf("Salaries for Heads:\n");
     for (int i = 0; i < head_count; i++) {
         int subordinates_count = 0;
-        // Підрахунок кількості підлеглих
         for (int j = 0; j < worker_count; j++) {
             if (strcmp(workers[j].head_name, heads[i].person.name) == 0) {
                 subordinates_count++;
@@ -226,14 +225,12 @@ void print_salaries(Worker workers[], int worker_count,
         printf("%s %s - %.2f (Head)\n", heads[i].person.name, heads[i].person.lastname, salary);
     }
 
-    // Виведемо зарплати звичайних працівників (Workers)
     printf("\nSalaries for Workers:\n");
     for (int i = 0; i < worker_count; i++) {
         double salary = calculate_employee_salary(&workers[i]);
         printf("%s %s - %.2f (Worker)\n", workers[i].person.name, workers[i].person.lastname, salary);
     }
 
-    // Виведемо зарплати сумісників (PartTimers)
     printf("\nSalaries for PartTimers:\n");
     for (int i = 0; i < part_timer_count; i++) {
         double salary = calculate_part_timer_salary(&part_timers[i]);
