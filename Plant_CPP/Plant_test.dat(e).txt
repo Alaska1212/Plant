@@ -1,0 +1,16 @@
+Name,LastName,Head,EquipmentType,EquipmentCost
+Olha,Kravchuk,Natalia Zhuk,Tablet,1200
+Bohdan,Romanenko,Kateryna Ivanko,WeldingMachine,2500
+Dmytro,Kushnir,Natalia Zhuk,Laptop,1800
+Olena,Symonenko,Kateryna Ivanko,Multimeter,800
+Andrii,Morozov,Natalia Zhuk,Laptop,1800
+Viktor,Pavlenko,Kateryna Ivanko,WeldingMachine,2500
+Yuliia,Mazur,Natalia Zhuk,Tablet,1200
+Petro,Danylenko,Kateryna Ivanko,Truck,50000
+Taras,Sydorenko,Oleksii Lytvyn,Computer,1000
+Iryna,Marchenko,Oleksii Lytvyn,Computer,1000
+Svitlana,Koval,Natalia Zhuk,Monitor,600
+Oleh,Stadnyk,Natalia Zhuk,Monitor,600
+Anton,Kryvyi,Kateryna Ivanko,Truck,50000
+Halyna,Mykhaylenko,Kateryna Ivanko,Projector,1300
+Maryna,Skoryk,Kateryna Ivanko,Projector,1300
